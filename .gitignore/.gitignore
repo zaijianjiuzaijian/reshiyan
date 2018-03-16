@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv=X-UA-Compatible content=IE=EmulateIE7>
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div class="wrap clearix">
+	  <div class="header">
+        <div class="header_top clearfix">
+            <div class="title center">
+                <span class="tit">XXX热实验总检</span><span class="date pl10">2017-10-11</span>
+            </div>
+        </div>
+       </div>
+  <div class="center_bg">
+    <div class="center_con clear">
+         <!--01 liuchengcekong-->
+           <div class="liuchengcekong fl">
+               <div class="lcck_left fl">
+                   <p class="Completion_rate pt40 mb20">100%</p><p class="entry_name">流程测控</p> 
+               </div>
+                <div class="lcck_right fl">
+                   <p class="Subproject">集中控制</p><p class="state">正常</p> 
+               </div>
+           </div>
+        <!--02 ups-->
+        <div class="ups fl ml15">
+               <div class="ups_left fl">
+                   <p class="Completion_rate pt40 mb20">100%</p><p class="entry_name">ups</p> 
+               </div>
+                <div class="ups_right fl">
+                   <p class="wrap_state">正常</p> 
+               </div>
+           </div>
+        
+        <!--03 zhenkongxitong-->
+        <div class="zhenkongxitong fl ml15">
+               <div class="zkxt_left fl">
+                   <p class="Completion_rate pt40 mb20">50%</p><p class="entry_name">真空系统</p> 
+               </div>
+            <div class="zkxt_right fl">
+                <div class="zkxt_conright fl">
+                   <p class="Subproject">工作程序</p><p class="state">正常</p> 
+               </div>
+               <div class="zkxt_conright fl">
+                   <p class="Subproject">抽粗</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
+               </div>
+               <div class="zkxt_conright fl">
+                   <p class="Subproject">高空真空系统</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
+               </div>
+             <div class="zkxt_conright fl">
+                   <p class="Subproject">试验法兰</p><p class="state">正常</p>
+               </div>
+            </div>
+           </div>
+<div class="clear"></div>
+        <!--04 diwenxitong-->
+        <div class="diwenxitong fl mt20">
+               <div class="dwxt_left fl">
+                   <p class="Completion_rate pt40 mb20">70%</p><p class="entry_name">低温系统</p> 
+               </div>
+            <div class="dwxt_right fl">
+                <div class="dwxt_conright fl">
+                   <p class="Subproject">工作程序</p><p class="state">正常</p> 
+               </div>
+               <div class="dwxt_conright fl">
+                   <p class="Subproject">液氮储存</p><p class="state">正常</p> 
+               </div>
+               <div class="dwxt_conright fl">
+                   <p class="Subproject">低温防护设备</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p>  
+               </div>
+             <div class="dwxt_conright fl">
+                   <p class="Subproject">液氮流程</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
+               </div>
+            </div>
+           </div>
+        <!--05 cekongxitong-->
+        <div class="cekongxitong fl mt20 ml15">
+               <div class="ckxt_left fl">
+                   <p class="Completion_rate pt40 mb20">70%</p><p class="entry_name">测控系统</p> 
+               </div>
+            <div class="ckxt_right fl">
+                <div class="ckxt_conright fl">
+                   <p class="Subproject">测量</p><p class="stateT abnormal"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
+               </div>
+               <div class="ckxt_conright fl">
+                   <p class="Subproject">控制</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
+               </div>
+               <div class="ckxt_conright fl">
+                   <p class="Subproject">其他</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
+               </div>
+            </div>
+           </div>
+<div class="clear"></div>
+         <!--06 baozhangxitong-->
+        <div class="baozhangxitong fl mt20">
+               <div class="bzxt_left fl">
+                   <p class="Completion_rate pt40 mb20">70%</p><p class="entry_name">保障系统</p> 
+               </div>
+            <div class="bzxt_right fl">
+                <div class="bzxt_conright fl">
+                   <p class="Subproject">水电气保障</p><p class="state">正常</p> 
+               </div>
+               <div class="bzxt_conright fl">
+                   <p class="Subproject">调度电话</p><p class="state">正常</p> 
+               </div>
+            </div>
+           </div>
+         <!--07 shiyangongzhuang-->
+        <div class="shiyangongzhuang fl mt20 ml15">
+               <div class="sygz_left fl">
+                   <p class="Completion_rate pt40 mb20">70%</p><p class="entry_name">试验工装</p> 
+               </div>
+            <div class="sygz_right fl">
+                <div class="sygz_conright fl">
+                   <p class="Subproject">试验支架</p><p class="stateT abnormal"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
+               </div>
+               <div class="sygz_conright fl">
+                   <p class="Subproject">红外加热笼/阵</p><p class="state">正常</p> 
+               </div>
+                <div class="sygz_conright fl">
+                   <p class="Subproject">试验冷板</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
+               </div>
+                <div class="sygz_conright fl">
+                   <p class="Subproject">试验波导</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
+               </div>
+                <div class="sygz_conright fl">
+                   <p class="Subproject">控温铝槽</p><p class="state">正常</p> 
+               </div>
+            </div>
+           </div>
+<div class="clear"></div>
+         <!--08 shiyanfuzhuxitong-->
+        <div class="shiyanfuzhuxitong fl mt20">
+               <div class="syfzxt_left fl">
+                   <p class="Completion_rate pt40 mb20">90%</p><p class="entry_name">试验辅助系统</p> 
+               </div>
+            <div class="syfzxt_right fl">
+                <div class="syfzxt_conright fl">
+                   <p class="Subproject">微波负载水冷系统</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p>  
+               </div>
+               <div class="syfzxt_conright fl">
+                   <p class="Subproject">压控系统</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
+               </div>
+                <div class="syfzxt_conright fl">
+                   <p class="Subproject">污染测量</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p>  
+               </div>
+                <div class="syfzxt_conright fl">
+                   <p class="Subproject">星内真空度测量</p><p class="state">正常</p> 
+               </div>
+                <div class="syfzxt_conright fl">
+                   <p class="Subproject">水平敏感器</p><p class="state">正常</p> 
+               </div>
+            </div>
+           </div>
+        
+        <!--09 teshuzhuangzhi-->
+        <div class="teshuzhuangzhi fl mt20 ml15">
+               <div class="tszz_left fl">
+                   <p class="Completion_rate pt40 mb20">100%</p><p class="entry_name">特殊装置</p> 
+               </div>
+                <div class="tszz_right fl">
+                   <p class="wrap_state">正常</p> 
+               </div>
+           </div>
+         <!--10 baozhangtiaojian-->
+        <div class="baozhangtiaojian fl mt20 ml15">
+               <div class="bztj_left fl">
+                   <p class="Completion_rate pt40 mb20">100%</p><p class="entry_name">保障条件</p> 
+               </div>
+                <div class="bztj_right fl">
+                   <p class="wrap_state">正常</p> 
+               </div>
+           </div>
+        
+ <div class="clear"></div>       
+        </div>
+    </div>
+        
+
+	</div>
+    
+
+</body>
+</html>
