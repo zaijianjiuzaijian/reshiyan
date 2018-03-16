@@ -1,191 +1,226 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<title>首页</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv=X-UA-Compatible content=IE=EmulateIE7>
-	<link href="css/style.css" rel="stylesheet">
-	<script src="js/jquery.min.js"></script>
-</head>
-<body>
-	<div class="wrap clearix">
-	  <div class="header">
-        <div class="header_top clearfix">
-            <div class="title center">
-                <span class="tit">XXX热实验总检</span><span class="date pl10">2017-10-11</span>
-            </div>
-        </div>
-       </div>
-  <div class="center_bg">
-    <div class="center_con clear">
-         <!--01 liuchengcekong-->
-           <div class="liuchengcekong fl">
-               <div class="lcck_left fl">
-                   <p class="Completion_rate pt40 mb20">100%</p><p class="entry_name">流程测控</p> 
-               </div>
-                <div class="lcck_right fl">
-                   <p class="Subproject">集中控制</p><p class="state">正常</p> 
-               </div>
-           </div>
-        <!--02 ups-->
-        <div class="ups fl ml15">
-               <div class="ups_left fl">
-                   <p class="Completion_rate pt40 mb20">100%</p><p class="entry_name">ups</p> 
-               </div>
-                <div class="ups_right fl">
-                   <p class="wrap_state">正常</p> 
-               </div>
-           </div>
-        
-        <!--03 zhenkongxitong-->
-        <div class="zhenkongxitong fl ml15">
-               <div class="zkxt_left fl">
-                   <p class="Completion_rate pt40 mb20">50%</p><p class="entry_name">真空系统</p> 
-               </div>
-            <div class="zkxt_right fl">
-                <div class="zkxt_conright fl">
-                   <p class="Subproject">工作程序</p><p class="state">正常</p> 
-               </div>
-               <div class="zkxt_conright fl">
-                   <p class="Subproject">抽粗</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
-               </div>
-               <div class="zkxt_conright fl">
-                   <p class="Subproject">高空真空系统</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
-               </div>
-             <div class="zkxt_conright fl">
-                   <p class="Subproject">试验法兰</p><p class="state">正常</p>
-               </div>
-            </div>
-           </div>
-<div class="clear"></div>
-        <!--04 diwenxitong-->
-        <div class="diwenxitong fl mt20">
-               <div class="dwxt_left fl">
-                   <p class="Completion_rate pt40 mb20">70%</p><p class="entry_name">低温系统</p> 
-               </div>
-            <div class="dwxt_right fl">
-                <div class="dwxt_conright fl">
-                   <p class="Subproject">工作程序</p><p class="state">正常</p> 
-               </div>
-               <div class="dwxt_conright fl">
-                   <p class="Subproject">液氮储存</p><p class="state">正常</p> 
-               </div>
-               <div class="dwxt_conright fl">
-                   <p class="Subproject">低温防护设备</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p>  
-               </div>
-             <div class="dwxt_conright fl">
-                   <p class="Subproject">液氮流程</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
-               </div>
-            </div>
-           </div>
-        <!--05 cekongxitong-->
-        <div class="cekongxitong fl mt20 ml15">
-               <div class="ckxt_left fl">
-                   <p class="Completion_rate pt40 mb20">70%</p><p class="entry_name">测控系统</p> 
-               </div>
-            <div class="ckxt_right fl">
-                <div class="ckxt_conright fl">
-                   <p class="Subproject">测量</p><p class="stateT abnormal"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
-               </div>
-               <div class="ckxt_conright fl">
-                   <p class="Subproject">控制</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
-               </div>
-               <div class="ckxt_conright fl">
-                   <p class="Subproject">其他</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
-               </div>
-            </div>
-           </div>
-<div class="clear"></div>
-         <!--06 baozhangxitong-->
-        <div class="baozhangxitong fl mt20">
-               <div class="bzxt_left fl">
-                   <p class="Completion_rate pt40 mb20">70%</p><p class="entry_name">保障系统</p> 
-               </div>
-            <div class="bzxt_right fl">
-                <div class="bzxt_conright fl">
-                   <p class="Subproject">水电气保障</p><p class="state">正常</p> 
-               </div>
-               <div class="bzxt_conright fl">
-                   <p class="Subproject">调度电话</p><p class="state">正常</p> 
-               </div>
-            </div>
-           </div>
-         <!--07 shiyangongzhuang-->
-        <div class="shiyangongzhuang fl mt20 ml15">
-               <div class="sygz_left fl">
-                   <p class="Completion_rate pt40 mb20">70%</p><p class="entry_name">试验工装</p> 
-               </div>
-            <div class="sygz_right fl">
-                <div class="sygz_conright fl">
-                   <p class="Subproject">试验支架</p><p class="stateT abnormal"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
-               </div>
-               <div class="sygz_conright fl">
-                   <p class="Subproject">红外加热笼/阵</p><p class="state">正常</p> 
-               </div>
-                <div class="sygz_conright fl">
-                   <p class="Subproject">试验冷板</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
-               </div>
-                <div class="sygz_conright fl">
-                   <p class="Subproject">试验波导</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
-               </div>
-                <div class="sygz_conright fl">
-                   <p class="Subproject">控温铝槽</p><p class="state">正常</p> 
-               </div>
-            </div>
-           </div>
-<div class="clear"></div>
-         <!--08 shiyanfuzhuxitong-->
-        <div class="shiyanfuzhuxitong fl mt20">
-               <div class="syfzxt_left fl">
-                   <p class="Completion_rate pt40 mb20">90%</p><p class="entry_name">试验辅助系统</p> 
-               </div>
-            <div class="syfzxt_right fl">
-                <div class="syfzxt_conright fl">
-                   <p class="Subproject">微波负载水冷系统</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p>  
-               </div>
-               <div class="syfzxt_conright fl">
-                   <p class="Subproject">压控系统</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p> 
-               </div>
-                <div class="syfzxt_conright fl">
-                   <p class="Subproject">污染测量</p><p class="stateT"><span class="num">5</span><span class="numcon ml5">项正常</span></p>  
-               </div>
-                <div class="syfzxt_conright fl">
-                   <p class="Subproject">星内真空度测量</p><p class="state">正常</p> 
-               </div>
-                <div class="syfzxt_conright fl">
-                   <p class="Subproject">水平敏感器</p><p class="state">正常</p> 
-               </div>
-            </div>
-           </div>
-        
-        <!--09 teshuzhuangzhi-->
-        <div class="teshuzhuangzhi fl mt20 ml15">
-               <div class="tszz_left fl">
-                   <p class="Completion_rate pt40 mb20">100%</p><p class="entry_name">特殊装置</p> 
-               </div>
-                <div class="tszz_right fl">
-                   <p class="wrap_state">正常</p> 
-               </div>
-           </div>
-         <!--10 baozhangtiaojian-->
-        <div class="baozhangtiaojian fl mt20 ml15">
-               <div class="bztj_left fl">
-                   <p class="Completion_rate pt40 mb20">100%</p><p class="entry_name">保障条件</p> 
-               </div>
-                <div class="bztj_right fl">
-                   <p class="wrap_state">正常</p> 
-               </div>
-           </div>
-        
- <div class="clear"></div>       
-        </div>
-    </div>
-        
+section,article,aside,header,footer,nav,figure{ display:block; }
+body,h1,h2,h3,h4,h5,h6,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,figure{ margin:0; padding:0; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{ font-size:100%; }
+address,cite,dfn,em,var{ font-style:normal; }
+code,kbd,pre,samp{ font-family:courier new,courier,monospace; }
+p,ul,li,dl,dd,dt,form,h1,h2,h3,h4,h5,h6{ list-style:none; }
+a{ color:#fff; text-decoration:none; }
+a:hover{ color:#0089CD; text-decoration:none; }
+fieldset,img{ border:0; }
+table{ border-collapse:collapse; border-spacing:0; }
+input::-moz-focus-inner,button::-moz-focus-inner{ border:0;padding:0;outline:0; }
 
-	</div>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,input,select{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family:Impact,Helvetica, Tahoma, Arial, 微软雅黑,Microsoft YaHei;
+	vertical-align: baseline;
+	font-style: normal;
+	font-weight: normal;
+}input{outline:none}
+    input[type=radio] {
+        cursor:pointer
+    }
     
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+    
+}
+body {
+	line-height: 1;font-family: Impact,Helvetica, Tahoma, Arial;
+}
+ol, ul {
+	list-style: none;
+}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:noraml;}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+abbr,acronym{border:0;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal;}
+a{text-decoration:none;color: #221e1f;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}
+img{max-width:100%;height:auto;}
+/**/
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.center{margin:0 auto;}
+.clear{clear: both;}
+.clearfix{zoom:1}
+.clearfix:after,.clearfix:before{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.dislb{display:inline-block;}
+.disb{display: block;}
+.none{display: none;}
+.pa{position:absolute;}
+.pf{position:fixed;}
+.pr{position:relative;}
+/*边距*/
+.mt15{margin-top: 15px;}
+.mb15{margin-bottom: 15px;}
+.ml15{margin-left: 15px;}
+.mr15{margin-right: 15px;}
+.pt15{padding-top: 15px;}
+.pb15{padding-bottom: 15px;}
+.pl15{padding-left: 15px;}
+.pr15{padding-right: 15px;}
+.pt90{padding-top: 90px;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.pt20{padding-top: 20px;}
+.pb20{ padding-bottom:20px;}
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
+.mb30{margin-bottom: 30px;}
+.ml10{margin-left: 10px;}
+.mr10{margin-right: 10px;}
+.pt10{padding-top: 10px;}
+.pt40{padding-top: 40px;}
+.pb10{padding-bottom: 10px;}
+.pl10{padding-left: 10px;}
+.pr10{padding-right: 10px;}
+.pl5{padding-top: 5px;}
+.mt5{margin-top: 5px;}
+.mb5{margin-bottom: 5px;}
+.ml5{margin-left: 5px;}
+.mr5{margin-right: 5px;}
+.pt5{padding-top: 5px;}
+.pb5{padding-bottom: 5px;}
+.pl5{padding-left: 5px;}
+.pr5{padding-right: 5px;}
+.p015{padding:0px 15px}
+.boxsize{box-sizing:border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
 
-</body>
-</html>
+
+
+/*wrap*/
+
+/*header*/
+.header{
+    height:120px;position:fixed;width:100%;top:0px;z-index:999;background:#002e6b;box-shadow:0px 0px 6px rgba(93,73,84,0.3);opacity:.8;filter:alpha(opacity=80);/* 针对 IE8 以及更早的版本 */
+}
+.header_top .title{text-align: center; line-height: 120px; color: #fff;}
+.header_top .title .tit{ font-size:36px; font-weight: bold;}
+.header_top .title .date{ font-size:20px;font-family: Helvetica, Tahoma, Arial;  }
+/*center*/
+.center_bg{ width:100%;position:fixed;top:0px;bottom:0px;background:url('../images/bg.jpg') no-repeat center bottom;background-size:100% 100%;}
+
+/*center_con*/
+.center_con{ padding: 160px 80px 0 80px;  }
+
+/*01 测控系统*/
+.liuchengcekong { background: #e7b637 url('../images/liuchengcekong.png') no-repeat right bottom; width: 20.34%;height:190px;box-shadow:0px 0px 40px rgba(0,12,59,0.5); color: #fff;}
+
+.liuchengcekong .lcck_left {width:47.48%;border-right: 1px dashed #fff; font-size: 60px; text-align: center;height: 100%;}
+/*公共*/
+.Completion_rate { font-size: 60px; }
+.entry_name{ font-size: 30px; font-weight: bold;}
+
+.liuchengcekong .lcck_right  { text-align: center; width: 52%;}
+.liuchengcekong .lcck_right .Subproject { font-size: 24px;height: 66px; line-height: 66px; border-bottom: 1px dashed #fff;}
+.liuchengcekong .lcck_right .state { font-size: 30px;height: 123px; line-height: 123px;}
+
+/*02 ups*/
+.ups { background: #eb6a5d url('../images/ups.png') no-repeat right bottom; width: 20.34%;height:190px;box-shadow:0px 0px 40px rgba(0,12,59,0.5); color: #fff;}
+.ups .ups_left {width:47.48%;border-right: 1px dashed #fff; font-size: 60px; text-align: center;height: 100%;}
+.ups .ups_right  { text-align: center; width: 52%;}
+.ups .ups_right .wrap_state { font-size: 30px;height: 190px; line-height: 190px;}
+
+/*03 真空系统*/
+.zhenkongxitong { background: #4cbf9d url('../images/zhenkongxitong.png') no-repeat right bottom; width: 57.5%;height:190px;box-shadow:0px 0px 40px rgba(0,12,59,0.5); color: #fff;}
+.zhenkongxitong .zkxt_left {width:16.79%;border-right: 1px dashed #fff; font-size: 60px; text-align: center;height: 100%;}
+.zhenkongxitong .zkxt_right  { text-align: center; width: 83%; }
+.zhenkongxitong .zkxt_conright{ width: 24.9%;border-right: 1px dashed #fff;}
+.zhenkongxitong .zkxt_conright:last-child{ border-right:none;}
+.zhenkongxitong .zkxt_conright .Subproject { font-size: 24px;height: 66px; line-height: 66px; border-bottom: 1px dashed #fff;}
+.zhenkongxitong .zkxt_conright .state { font-size: 30px;height: 123px; line-height: 123px;}
+
+/*04 低温系统*/
+.diwenxitong { background: #5ac65f url('../images/diwenxitong.png') no-repeat right bottom; width: 57.5%;height:190px;box-shadow:0px 0px 40px rgba(0,12,59,0.5); color: #fff;}
+.diwenxitong .dwxt_left {width:16.79%;border-right: 1px dashed #fff; font-size: 60px; text-align: center;height: 100%;}
+.diwenxitong .dwxt_right  { text-align: center; width: 83%; }
+.diwenxitong .dwxt_conright{ width: 24.9%;border-right: 1px dashed #fff;}
+.diwenxitong .dwxt_conright:last-child{ border-right:none;}
+.diwenxitong .dwxt_conright .Subproject { font-size: 24px;height: 66px; line-height: 66px; border-bottom: 1px dashed #fff;}
+.diwenxitong .dwxt_conright .state { font-size: 30px;height: 123px; line-height: 123px;}
+
+/*05 测控系统*/
+.cekongxitong { background: #bc87d8 url('../images/cekongxitong.png') no-repeat right bottom; width: 41.56%;height:190px;box-shadow:0px 0px 40px rgba(0,12,59,0.5); color: #fff;}
+.cekongxitong .ckxt_left {width:23%;border-right: 1px dashed #fff; font-size: 60px; text-align: center;height: 100%;}
+.cekongxitong .ckxt_right { text-align: center; width: 76.8%; }
+.cekongxitong .ckxt_conright{ width: 33%;border-right: 1px dashed #fff;}
+.cekongxitong .ckxt_conright:last-child{ border-right:none;}
+.cekongxitong .ckxt_conright .Subproject { font-size: 24px;height: 66px; line-height: 66px; border-bottom: 1px dashed #fff;}
+.cekongxitong .ckxt_conright .state { font-size: 30px;height: 123px; line-height: 123px;}
+
+/*06 保障系统*/
+.baozhangxitong { background: #8987d8 url('../images/baozhangxitong.png') no-repeat right bottom; width: 29.82%;height:190px;box-shadow:0px 0px 40px rgba(0,12,59,0.5); color: #fff;}
+.baozhangxitong .bzxt_left {width:32.38%;border-right: 1px dashed #fff; font-size: 60px; text-align: center;height: 100%;}
+.baozhangxitong .bzxt_right { text-align: center; width: 67.4%; }
+.baozhangxitong .bzxt_conright{ width: 49.8%;border-right: 1px dashed #fff;}
+.baozhangxitong .bzxt_conright:last-child{ border-right:none;}
+.baozhangxitong .bzxt_conright .Subproject { font-size: 24px;height: 66px; line-height: 66px; border-bottom: 1px dashed #fff;}
+.baozhangxitong .bzxt_conright .state { font-size: 30px;height: 123px; line-height: 123px;}
+
+/*07 试验工装 */
+.shiyangongzhuang { background: #ea9570 url('../images/shiyangongzhuang.png') no-repeat right bottom; width: 69.3%;height:190px;box-shadow:0px 0px 40px rgba(0,12,59,0.5); color: #fff;}
+.shiyangongzhuang .sygz_left {width:13.93%;border-right: 1px dashed #fff; font-size: 60px; text-align: center;height: 100%;}
+.shiyangongzhuang .sygz_right { text-align: center; width: 85.9%; }
+.shiyangongzhuang .sygz_conright{ width: 19.9%;border-right: 1px dashed #fff;}
+.shiyangongzhuang .sygz_conright:last-child{ border-right:none;}
+.shiyangongzhuang .sygz_conright .Subproject { font-size: 24px;height: 66px; line-height: 66px; border-bottom: 1px dashed #fff;}
+.shiyangongzhuang .sygz_conright .state { font-size: 30px;height: 123px; line-height: 123px;}
+
+/*08 试验辅助系统*/
+.shiyanfuzhuxitong { background: #3ba2e3 url('../images/shiyanfuzhuxitong.png') no-repeat right bottom; width: 60.39%;height:190px;box-shadow:0px 0px 40px rgba(0,12,59,0.5); color: #fff;}
+.shiyanfuzhuxitong .syfzxt_left {width:13.93%;border-right: 1px dashed #fff; font-size: 60px; text-align: center;height: 100%;}
+.shiyanfuzhuxitong .syfzxt_right { text-align: center; width: 85.97%; }
+.shiyanfuzhuxitong .syfzxt_conright { width: 19.9%; border-right: 1px dashed #fff;}
+.shiyanfuzhuxitong .syfzxt_conright:last-child{ border-right:none;}
+.shiyanfuzhuxitong .syfzxt_conright .Subproject { font-size: 24px;height: 66px; line-height: 66px; border-bottom: 1px dashed #fff;}
+.shiyanfuzhuxitong .syfzxt_conright .state { font-size: 30px;height: 123px; line-height: 123px;}
+
+/*09 特殊装置*/
+.teshuzhuangzhi { background: #90bc58 url('../images/teshuzhuangzhi.png') no-repeat right bottom; width: 18.92%;height:190px;box-shadow:0px 0px 40px rgba(0,12,59,0.5); color: #fff;}
+.teshuzhuangzhi .tszz_left {width:51%;border-right: 1px dashed #fff; font-size: 60px; text-align: center;height: 100%;}
+.teshuzhuangzhi .tszz_right  { text-align: center; width: 48.5%;}
+.teshuzhuangzhi .tszz_right .wrap_state { font-size: 30px;height: 190px; line-height: 190px;}
+
+/*10 保障条件*/
+.baozhangtiaojian { background: #cd7bb2 url('../images/baozhangtiaojian.png') no-repeat right bottom; width: 18.92%;height:190px;box-shadow:0px 0px 40px rgba(0,12,59,0.5); color: #fff;}
+.baozhangtiaojian .bztj_left {width:51%;border-right: 1px dashed #fff; font-size: 60px; text-align: center;height: 100%;}
+.baozhangtiaojian .bztj_right  { text-align: center; width: 48.5%;}
+.baozhangtiaojian .bztj_right .wrap_state { font-size: 30px;height: 190px; line-height: 190px;}
+
+/*公共*/
+.Completion_rate { font-size: 60px; }
+.entry_name{ font-size: 30px; font-weight: bold;}
+.stateT {height: 123px; line-height: 123px; }
+.stateT .num { font-size: 60px;font-family: Helvetica, Tahoma, Arial; }
+.stateT .numcon { font-size: 18px; }
+.abnormal {color: red;}
